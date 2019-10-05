@@ -22,6 +22,7 @@
         android:layout_gravity="center_horizontal"/>
 
     <EditText
+        android:id="@+id/edt_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -29,6 +30,7 @@
         android:inputType="text"/>
 
     <EditText
+        android:id="@+id/edt_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -36,6 +38,7 @@
         android:inputType="textPassword"/>
 
     <Button
+        android:id="@+id/btn_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="login"
