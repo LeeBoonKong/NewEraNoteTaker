@@ -27,7 +27,10 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:hint="Username"
-        android:inputType="text"/>
+        android:inputType="text"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:lines="1"/>
 
     <EditText
         android:id="@+id/edt_password"
@@ -35,7 +38,10 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:hint="Password"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:lines="1"/>
 
     <Button
         android:id="@+id/btn_login"
